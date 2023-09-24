@@ -63,3 +63,19 @@ switch(true) {
             break;
     default: console.log('error');
 }
+
+
+let day = 20;
+
+switch(true) {
+    case day >= 1 && day <= 10 :
+        console.log('первая декада');
+        break;
+    case day > 10 && day <= 20 :
+        console.log('вторая декада');
+        break;
+    case day > 20 && day <= 31 :
+        console.log('третья декада');
+        break;
+    default: console.log('error');
+}
