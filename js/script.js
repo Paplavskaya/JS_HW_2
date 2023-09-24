@@ -111,3 +111,23 @@ if (day1 >= 7) {
 console.log(`${hours}, ${minutes}, ${seconds}`);
 
 
+let days = 249;
+
+let month = days / 31;
+console.log(month)
+
+switch(true) {
+    case month >= 0 && month <= 2 || month > 11 && month <=12:
+        console.log('зима');
+        break;
+    case month > 2 && month <= 5 :
+        console.log('весна');
+        break;
+    case month > 5 && month <= 8 :
+        console.log('лето');
+        break;
+    case month > 8 && month <= 11 :
+            console.log('осень');
+            break;
+    default: console.log('error');
+}
