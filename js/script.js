@@ -26,3 +26,7 @@ let сhar6 = +str[5];
 let sum1 = сhar1 + сhar2 + сhar3;
 let sum2 = сhar4 + сhar5 + сhar6;
 sum1 === sum2 ? console.log('да') : console.log('нет');
+
+
+let a = 1;
+a > 0 ? console.log('Верно') : console.log('Неверно');
