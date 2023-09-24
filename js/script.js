@@ -79,3 +79,35 @@ switch(true) {
         break;
     default: console.log('error');
 }
+
+
+let day1 = 526;
+
+let years = day1 / 365;
+let months = day1 / 31;
+let weeks = day1 / 7;
+let hours = day1 * 24;
+let minutes = hours * 60;
+let seconds = minutes * 60;
+
+if (day1 >= 365) {
+    console.log(years);
+}else {
+    console.log(`Меньше года`);
+}
+
+if (day1 >= 31) {
+    console.log(months);
+}else {
+    console.log(`Меньше месяца`);
+}
+
+if (day1 >= 7) {
+    console.log(weeks);
+}else {
+    console.log(`Меньше недели`);
+}
+
+console.log(`${hours}, ${minutes}, ${seconds}`);
+
+
