@@ -30,3 +30,15 @@ sum1 === sum2 ? console.log('да') : console.log('нет');
 
 let a = 1;
 a > 0 ? console.log('Верно') : console.log('Неверно');
+
+
+let a1 = 10;
+let b1 = 2;
+
+console.log(`Сумма: ${a1 + b1}`);
+console.log(`Разность: ${a1 - b1}`);
+console.log(`Произведение: ${a1 * b1}`);
+console.log(`Частное: ${a1 / b1}`);
+if ((a1 + b1) > 1 ) {
+    console.log((a1 + b1) ** 2)
+}
