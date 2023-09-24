@@ -45,3 +45,21 @@ if ((a1 + b1) > 1 ) {
 
 
 a1 > 2 && a1 < 11 || b1 >= 6 && b1 < 14 ? console.log('Верно') : console.log('Неверно');
+
+
+let n = 35;
+switch(true) {
+    case n >= 0 && n < 15 :
+        console.log('первая четверть');
+        break;
+    case n >= 15 && n < 30 :
+        console.log('вторая четверть');
+        break;
+    case n >= 30 && n < 45 :
+        console.log('третья четверть');
+        break;
+    case n >= 45 && n <= 59 :
+            console.log('четвертая четверть');
+            break;
+    default: console.log('error');
+}
