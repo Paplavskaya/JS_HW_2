@@ -42,3 +42,6 @@ console.log(`Частное: ${a1 / b1}`);
 if ((a1 + b1) > 1 ) {
     console.log((a1 + b1) ** 2)
 }
+
+
+a1 > 2 && a1 < 11 || b1 >= 6 && b1 < 14 ? console.log('Верно') : console.log('Неверно');
